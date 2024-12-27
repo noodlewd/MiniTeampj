@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.join-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 50px 0px 50px;
+}
+
+.form-container {
+  justify-content: flex-start;
+  width: 45%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #19283d;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container label {
+  font-size: 16px;
+  color: #19283d;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #19283d;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #145a9c;
+}
+
+.data-container {
+  justify-content: flex-end;
+  width: 45%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #19283d;
+}
+
+.data-container ul {
+  list-style: none;
+  padding: 0;
+}
